@@ -1,0 +1,60 @@
+{
+  "word": "patience",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈpeɪ.ʃəns/",
+      "pronunciation_guide": "PAY-shuhns",
+      "senses": [
+        {
+          "translations": [
+            "صبر",
+            "شکیبایی",
+            "بردباری"
+          ],
+          "definition_en": "the ability to stay calm and accept delay, trouble, or suffering without becoming annoyed",
+          "examples": [
+            {
+              "en": "Teaching young children requires a great deal of patience.",
+              "fa": "آموزش به کودکان خردسال به صبر زیادی نیاز دارد."
+            },
+            {
+              "en": "Please be patient; the results take time.",
+              "fa": "لطفاً صبور باشید؛ نتایج زمان می‌برند."
+            }
+          ],
+          "synonyms": [
+            "tolerance",
+            "endurance",
+            "forbearance"
+          ],
+          "antonyms": [
+            "impatience"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "patient",
+      "pos": "adjective / noun",
+      "translation": "صبور (صفت) / بیمار (اسم)"
+    },
+    {
+      "word": "impatient",
+      "pos": "adjective",
+      "translation": "بی‌صبر"
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "have the patience of a saint",
+      "translation": "صبر ایوب داشتن",
+      "example_en": "You need the patience of a saint to deal with these customers.",
+      "example_fa": "برای سروکار داشتن با این مشتری‌ها به صبر ایوب نیاز داری."
+    }
+  ],
+  "notes": "Note the interesting double meaning of the related word \"patient\", which is both an adjective (صبور) and, unrelatedly in everyday use, a noun meaning \"a person receiving medical care\" (بیمار)."
+}

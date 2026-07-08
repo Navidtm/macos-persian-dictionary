@@ -1,0 +1,56 @@
+{
+  "word": "family",
+  "level": "A1",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈfæm.əl.i/",
+      "pronunciation_guide": "FAM-uh-lee",
+      "senses": [
+        {
+          "translations": [
+            "خانواده"
+          ],
+          "definition_en": "a group of people related by blood or marriage, typically parents and their children",
+          "examples": [
+            {
+              "en": "My family gathers together every Friday night.",
+              "fa": "خانواده من هر جمعه‌شب دور هم جمع می‌شوند."
+            }
+          ],
+          "synonyms": [
+            "relatives",
+            "kin",
+            "household"
+          ]
+        },
+        {
+          "translations": [
+            "خانواده",
+            "رده"
+          ],
+          "definition_en": "a group of related things, such as languages, plants, or species, that share common features",
+          "examples": [
+            {
+              "en": "Persian belongs to the Indo-European language family.",
+              "fa": "زبان فارسی متعلق به خانواده زبان‌های هند و اروپایی است."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "familiar",
+      "pos": "adjective",
+      "translation": "آشنا"
+    },
+    {
+      "word": "familiarize",
+      "pos": "verb",
+      "translation": "آشنا کردن"
+    }
+  ],
+  "notes": "In British English, \"family\" can take either singular or plural verb agreement (\"my family is/are coming\"); American English generally prefers the singular."
+}

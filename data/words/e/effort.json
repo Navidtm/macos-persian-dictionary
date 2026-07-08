@@ -1,0 +1,51 @@
+{
+  "word": "effort",
+  "level": "A2",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈef.ət/",
+      "pronunciation_guide": "EF-uht",
+      "senses": [
+        {
+          "translations": [
+            "تلاش",
+            "کوشش"
+          ],
+          "definition_en": "physical or mental energy used to do something; an attempt to do something",
+          "examples": [
+            {
+              "en": "She put a lot of effort into preparing for the exam.",
+              "fa": "او تلاش زیادی برای آماده‌شدن برای امتحان کرد."
+            }
+          ],
+          "synonyms": [
+            "attempt",
+            "endeavor",
+            "exertion"
+          ],
+          "antonyms": [
+            "laziness",
+            "idleness"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "effortless",
+      "pos": "adjective",
+      "translation": "بدون زحمت، آسان"
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "make an effort",
+      "translation": "تلاش کردن",
+      "example_en": "Please make an effort to arrive on time.",
+      "example_fa": "لطفاً تلاش کنید سر وقت برسید."
+    }
+  ],
+  "notes": "Usually uncountable when talking about effort in general (\"a lot of effort\"), but countable when referring to specific attempts (\"several efforts to fix the problem\")."
+}

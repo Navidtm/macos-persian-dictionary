@@ -1,0 +1,70 @@
+{
+  "word": "beautiful",
+  "level": "A1",
+  "parts_of_speech": [
+    {
+      "type": "adjective",
+      "ipa": "/ˈbjuː.tɪ.fəl/",
+      "pronunciation_guide": "BYOO-tuh-fuhl",
+      "senses": [
+        {
+          "translations": [
+            "زیبا",
+            "قشنگ"
+          ],
+          "definition_en": "pleasing to look at; attractive, especially in a visually striking way",
+          "examples": [
+            {
+              "en": "The sunset over the mountains was truly beautiful.",
+              "fa": "غروب آفتاب روی کوه‌ها واقعاً زیبا بود."
+            },
+            {
+              "en": "She wore a beautiful red dress to the party.",
+              "fa": "او یک لباس قرمز زیبا به مهمانی پوشید."
+            }
+          ],
+          "synonyms": [
+            "gorgeous",
+            "lovely",
+            "stunning",
+            "attractive"
+          ],
+          "antonyms": [
+            "ugly",
+            "hideous"
+          ]
+        },
+        {
+          "translations": [
+            "دلنشین",
+            "لذت‌بخش"
+          ],
+          "definition_en": "(of an experience, quality, or performance) very pleasing or satisfying",
+          "examples": [
+            {
+              "en": "It was a beautiful performance by the young pianist.",
+              "fa": "این اجرای دلنشینی از سوی پیانیست جوان بود."
+            }
+          ],
+          "synonyms": [
+            "wonderful",
+            "exquisite"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "beauty",
+      "pos": "noun",
+      "translation": "زیبایی"
+    },
+    {
+      "word": "beautifully",
+      "pos": "adverb",
+      "translation": "به زیبایی، به طرز زیبایی"
+    }
+  ],
+  "notes": "In everyday speech, \"beautiful\" usually suggests a higher degree of attractiveness than the more casual words \"pretty\" or \"nice\"."
+}

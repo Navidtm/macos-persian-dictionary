@@ -1,0 +1,58 @@
+{
+  "word": "journey",
+  "level": "A2",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈdʒɜː.ni/",
+      "pronunciation_guide": "JUR-nee",
+      "senses": [
+        {
+          "translations": [
+            "سفر"
+          ],
+          "definition_en": "an act of traveling from one place to another, especially a long or difficult one",
+          "examples": [
+            {
+              "en": "Our journey across the country took three days.",
+              "fa": "سفر ما در سراسر کشور سه روز طول کشید."
+            },
+            {
+              "en": "Learning a language is a journey, not a destination.",
+              "fa": "یادگیری یک زبان یک سفر است، نه یک مقصد."
+            }
+          ],
+          "synonyms": [
+            "trip",
+            "voyage",
+            "expedition"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verb",
+      "ipa": "/ˈdʒɜː.ni/",
+      "pronunciation_guide": "JUR-nee",
+      "senses": [
+        {
+          "translations": [
+            "سفر کردن"
+          ],
+          "definition_en": "to travel, especially over a long distance (mostly literary or formal)",
+          "examples": [
+            {
+              "en": "They journeyed for weeks through the desert.",
+              "fa": "آن‌ها هفته‌ها در بیابان سفر کردند."
+            }
+          ],
+          "synonyms": [
+            "travel",
+            "trek"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "\"Journey\" often carries a sense of length or meaning that a simple \"trip\" does not, and it is frequently used metaphorically, e.g. \"a journey of self-discovery\" (سفر خودشناسی)."
+}

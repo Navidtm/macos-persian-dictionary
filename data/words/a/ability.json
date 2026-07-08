@@ -1,0 +1,66 @@
+{
+  "word": "ability",
+  "level": "A2",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/əˈbɪl.ə.ti/",
+      "pronunciation_guide": "uh-BIL-uh-tee",
+      "senses": [
+        {
+          "translations": [
+            "توانایی",
+            "قابلیت"
+          ],
+          "definition_en": "the physical or mental power or skill needed to do something",
+          "examples": [
+            {
+              "en": "She has the ability to solve complex problems quickly.",
+              "fa": "او توانایی حل سریع مسائل پیچیده را دارد."
+            },
+            {
+              "en": "Reading ability varies a lot between children of the same age.",
+              "fa": "توانایی خواندن در کودکان هم‌سن بسیار متفاوت است."
+            }
+          ],
+          "synonyms": [
+            "capability",
+            "capacity",
+            "skill",
+            "competence"
+          ],
+          "antonyms": [
+            "inability",
+            "incapacity"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "able",
+      "pos": "adjective",
+      "translation": "قادر، توانا"
+    },
+    {
+      "word": "enable",
+      "pos": "verb",
+      "translation": "توانا کردن، امکان‌پذیر کردن"
+    },
+    {
+      "word": "disability",
+      "pos": "noun",
+      "translation": "ناتوانی، معلولیت"
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "to the best of one's ability",
+      "translation": "در حد توان کسی",
+      "example_en": "I promise to help you to the best of my ability.",
+      "example_fa": "قول می‌دهم تا حد توانم به شما کمک کنم."
+    }
+  ],
+  "notes": "Almost always followed by \"to\" + verb: \"the ability to do something\", not \"the ability of doing something\"."
+}

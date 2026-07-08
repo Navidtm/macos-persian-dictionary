@@ -1,0 +1,59 @@
+{
+  "word": "example",
+  "level": "A1",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ɪɡˈzɑːm.pəl/",
+      "pronunciation_guide": "ig-ZAM-puhl",
+      "senses": [
+        {
+          "translations": [
+            "مثال",
+            "نمونه"
+          ],
+          "definition_en": "a thing that illustrates a general rule, idea, or serves as a model of something",
+          "examples": [
+            {
+              "en": "Can you give me an example of what you mean?",
+              "fa": "می‌توانید یک مثال از منظورتان بزنید؟"
+            }
+          ],
+          "synonyms": [
+            "instance",
+            "illustration",
+            "sample"
+          ]
+        },
+        {
+          "translations": [
+            "سرمشق",
+            "الگو"
+          ],
+          "definition_en": "a person or their behavior regarded as a model to be imitated, or occasionally avoided",
+          "examples": [
+            {
+              "en": "She sets a good example for her younger siblings.",
+              "fa": "او الگوی خوبی برای خواهر و برادرهای کوچک‌ترش است."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "for example",
+      "translation": "به‌عنوان مثال",
+      "example_en": "Many fruits, apples for example, are rich in fiber.",
+      "example_fa": "بسیاری از میوه‌ها، مثلاً سیب، سرشار از فیبر هستند."
+    },
+    {
+      "phrase": "make an example of someone",
+      "translation": "کسی را عبرت دیگران کردن",
+      "example_en": "The teacher made an example of the student who cheated.",
+      "example_fa": "معلم آن دانش‌آموزی را که تقلب کرده بود، عبرت دیگران کرد."
+    }
+  ],
+  "notes": "\"For example\" and its abbreviation \"e.g.\" are among the most frequently used phrases in academic and everyday English."
+}

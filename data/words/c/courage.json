@@ -1,0 +1,72 @@
+{
+  "word": "courage",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈkʌr.ɪdʒ/",
+      "pronunciation_guide": "KUR-ij",
+      "senses": [
+        {
+          "translations": [
+            "شجاعت",
+            "شهامت",
+            "جسارت"
+          ],
+          "definition_en": "the ability to do something that frightens one; bravery",
+          "examples": [
+            {
+              "en": "It took a lot of courage to speak in front of so many people.",
+              "fa": "صحبت‌کردن جلوی این‌همه آدم شجاعت زیادی می‌خواست."
+            },
+            {
+              "en": "She showed great courage during the crisis.",
+              "fa": "او در طول بحران شجاعت زیادی از خود نشان داد."
+            }
+          ],
+          "synonyms": [
+            "bravery",
+            "valor",
+            "boldness"
+          ],
+          "antonyms": [
+            "cowardice",
+            "fear"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "courageous",
+      "pos": "adjective",
+      "translation": "شجاع، دلیر"
+    },
+    {
+      "word": "encourage",
+      "pos": "verb",
+      "translation": "تشویق کردن"
+    },
+    {
+      "word": "discourage",
+      "pos": "verb",
+      "translation": "دلسرد کردن"
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "pluck up the courage",
+      "translation": "جرأت به خرج دادن",
+      "example_en": "He finally plucked up the courage to ask her out.",
+      "example_fa": "او بالاخره جرأت به خرج داد و از او خواست با هم قرار بگذارند."
+    },
+    {
+      "phrase": "have the courage of one's convictions",
+      "translation": "پایبند به اصول و باورهای خود بودن",
+      "example_en": "It's easy to have an opinion, but it takes courage of your convictions to act on it.",
+      "example_fa": "داشتن یک نظر آسان است، اما عمل کردن به آن به پایبندی به اصول نیاز دارد."
+    }
+  ],
+  "notes": "Uncountable in most everyday uses: say \"a lot of courage\", not \"many courages\"."
+}

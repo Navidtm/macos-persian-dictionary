@@ -1,0 +1,52 @@
+{
+  "word": "decide",
+  "level": "A2",
+  "parts_of_speech": [
+    {
+      "type": "verb",
+      "ipa": "/dɪˈsaɪd/",
+      "pronunciation_guide": "dih-SYD",
+      "senses": [
+        {
+          "translations": [
+            "تصمیم گرفتن"
+          ],
+          "definition_en": "to make a choice or reach a conclusion about something after thinking about it",
+          "examples": [
+            {
+              "en": "We need to decide where to go for our vacation.",
+              "fa": "باید تصمیم بگیریم برای تعطیلات کجا برویم."
+            },
+            {
+              "en": "He couldn't decide which pair of shoes to buy.",
+              "fa": "او نمی‌توانست تصمیم بگیرد کدام جفت کفش را بخرد."
+            }
+          ],
+          "synonyms": [
+            "choose",
+            "determine",
+            "resolve"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "decision",
+      "pos": "noun",
+      "translation": "تصمیم"
+    },
+    {
+      "word": "decisive",
+      "pos": "adjective",
+      "translation": "قاطع، تعیین‌کننده"
+    },
+    {
+      "word": "undecided",
+      "pos": "adjective",
+      "translation": "مردد، تصمیم‌نگرفته"
+    }
+  ],
+  "notes": "Commonly followed by \"to\" + infinitive (\"decide to go\") or by a wh-clause (\"decide where/when/whether to go\")."
+}

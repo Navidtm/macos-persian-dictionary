@@ -1,0 +1,68 @@
+{
+  "word": "develop",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "verb",
+      "ipa": "/dɪˈvel.əp/",
+      "pronunciation_guide": "dih-VEL-uhp",
+      "senses": [
+        {
+          "translations": [
+            "توسعه یافتن",
+            "رشد کردن"
+          ],
+          "definition_en": "to grow or change gradually into a more advanced, larger, or mature state",
+          "examples": [
+            {
+              "en": "The town has developed rapidly over the last decade.",
+              "fa": "این شهر در دهه گذشته به‌سرعت توسعه یافته است."
+            }
+          ],
+          "synonyms": [
+            "grow",
+            "evolve",
+            "expand"
+          ]
+        },
+        {
+          "translations": [
+            "توسعه دادن",
+            "تولید کردن",
+            "ایجاد کردن"
+          ],
+          "definition_en": "to create or produce something, such as a product, plan, or idea, over time",
+          "examples": [
+            {
+              "en": "Our team is developing a new mobile application.",
+              "fa": "تیم ما در حال توسعه یک اپلیکیشن موبایل جدید است."
+            }
+          ],
+          "synonyms": [
+            "create",
+            "design",
+            "produce"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "development",
+      "pos": "noun",
+      "translation": "توسعه، پیشرفت"
+    },
+    {
+      "word": "developer",
+      "pos": "noun",
+      "translation": "توسعه‌دهنده"
+    },
+    {
+      "word": "developing",
+      "pos": "adjective",
+      "translation": "در حال توسعه"
+    }
+  ],
+  "notes": "\"Developing country\" (کشور در حال توسعه) is a very common fixed phrase built from this word."
+}

@@ -1,0 +1,61 @@
+name: Release
+
+# Triggers on tags like v0.1.0, v1.2.3, etc. Pushing such a tag is the only
+# thing a maintainer needs to do to cut a release -- see README.md ->
+# "Release process" for the exact commands.
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+# Needed so this workflow can create a GitHub Release and upload assets.
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    # Apple Silicon runner: matches the CPU architecture the Dictionary
+    # Development Kit mirror below was last rebuilt for, minimizing the
+    # chance of "bad CPU type in executable" errors.
+    runs-on: macos-14
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      # GitHub's Apple Silicon runners normally ship with Rosetta already
+      # installed, but this is a harmless no-op if so, and a safety net if
+      # a future runner image doesn't include it.
+      - name: Ensure Rosetta 2 is available
+        run: softwareupdate --install-rosetta --agree-to-license || true
+
+      # The Dictionary Development Kit is a build-time-only dependency for
+      # maintainers/CI -- end users never need it (see README.md).
+      - name: Fetch Dictionary Development Kit
+        run: |
+          git clone --depth 1 https://github.com/nanoskript/dictionary-development-kit.git kit
+          chmod +x kit/bin/*.sh kit/bin/*.pl 2>/dev/null || true
+
+      - name: Derive version from tag
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+
+      - name: Validate data
+        run: python3 scripts/validate.py
+
+      - name: Run test suite
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Build release package
+        run: make release VERSION="$VERSION" DDK_ROOT="$(pwd)/kit"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: English-Persian Dictionary v${{ env.VERSION }}
+          files: release/EnglishPersianDictionary-v${{ env.VERSION }}.zip
+          generate_release_notes: true

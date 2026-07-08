@@ -1,0 +1,83 @@
+{
+  "word": "challenge",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈtʃæl.ɪndʒ/",
+      "pronunciation_guide": "CHAL-inj",
+      "senses": [
+        {
+          "translations": [
+            "چالش"
+          ],
+          "definition_en": "a task or situation that tests someone's abilities",
+          "examples": [
+            {
+              "en": "Learning a new language can be a real challenge.",
+              "fa": "یادگیری یک زبان جدید می‌تواند واقعاً یک چالش باشد."
+            }
+          ],
+          "synonyms": [
+            "difficulty",
+            "obstacle",
+            "test"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verb",
+      "ipa": "/ˈtʃæl.ɪndʒ/",
+      "pronunciation_guide": "CHAL-inj",
+      "senses": [
+        {
+          "translations": [
+            "به چالش کشیدن",
+            "به مبارزه طلبیدن"
+          ],
+          "definition_en": "to invite someone to compete or to do something difficult",
+          "examples": [
+            {
+              "en": "She challenged him to a game of chess.",
+              "fa": "او او را به یک بازی شطرنج دعوت به رقابت کرد."
+            }
+          ],
+          "synonyms": [
+            "dare",
+            "confront"
+          ]
+        },
+        {
+          "translations": [
+            "زیر سؤال بردن"
+          ],
+          "definition_en": "to question whether something is true, right, or legal",
+          "examples": [
+            {
+              "en": "The lawyer challenged the validity of the contract.",
+              "fa": "وکیل اعتبار قرارداد را زیر سؤال برد."
+            }
+          ],
+          "synonyms": [
+            "dispute",
+            "question"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "challenging",
+      "pos": "adjective",
+      "translation": "چالش‌برانگیز، دشوار"
+    },
+    {
+      "word": "challenger",
+      "pos": "noun",
+      "translation": "رقیب، مدعی"
+    }
+  ],
+  "notes": "As a noun, \"challenge\" is almost always countable: \"a challenge\", \"many challenges\"."
+}

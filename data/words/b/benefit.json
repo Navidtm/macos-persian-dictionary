@@ -1,0 +1,95 @@
+{
+  "word": "benefit",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈben.ɪ.fɪt/",
+      "pronunciation_guide": "BEN-uh-fit",
+      "senses": [
+        {
+          "translations": [
+            "فایده",
+            "منفعت",
+            "سود"
+          ],
+          "definition_en": "an advantage or profit gained from something",
+          "examples": [
+            {
+              "en": "Regular exercise has many health benefits.",
+              "fa": "ورزش منظم فواید زیادی برای سلامتی دارد."
+            }
+          ],
+          "synonyms": [
+            "advantage",
+            "gain",
+            "profit"
+          ],
+          "antonyms": [
+            "drawback",
+            "disadvantage",
+            "harm"
+          ]
+        },
+        {
+          "translations": [
+            "مقرری",
+            "کمک‌هزینه"
+          ],
+          "definition_en": "a payment made by a government or an organization to someone entitled to receive it",
+          "examples": [
+            {
+              "en": "She receives unemployment benefit while looking for a new job.",
+              "fa": "او در حین جستجوی شغل جدید، مقرری بیکاری دریافت می‌کند."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verb",
+      "ipa": "/ˈben.ɪ.fɪt/",
+      "pronunciation_guide": "BEN-uh-fit",
+      "senses": [
+        {
+          "translations": [
+            "بهره‌مند شدن",
+            "سود بردن"
+          ],
+          "definition_en": "to receive an advantage from something; to be helped by it",
+          "examples": [
+            {
+              "en": "Both companies benefited from the new trade agreement.",
+              "fa": "هر دو شرکت از توافق تجاری جدید بهره‌مند شدند."
+            }
+          ],
+          "synonyms": [
+            "gain from",
+            "profit from"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "beneficial",
+      "pos": "adjective",
+      "translation": "مفید، سودمند"
+    },
+    {
+      "word": "beneficiary",
+      "pos": "noun",
+      "translation": "ذی‌نفع"
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "give someone the benefit of the doubt",
+      "translation": "به نفع کسی قضاوت کردن در شرایط نامشخص",
+      "example_en": "I don't know if he's telling the truth, but I'll give him the benefit of the doubt.",
+      "example_fa": "نمی‌دانم او راست می‌گوید یا نه، اما به نفع او قضاوت می‌کنم."
+    }
+  ],
+  "notes": "A good example of a single headword with two distinct grammatical roles (noun and verb) — see how parts_of_speech supports this directly."
+}

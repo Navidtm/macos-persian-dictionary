@@ -1,0 +1,52 @@
+{
+  "word": "important",
+  "level": "A1",
+  "parts_of_speech": [
+    {
+      "type": "adjective",
+      "ipa": "/ɪmˈpɔːr.tənt/",
+      "pronunciation_guide": "im-POR-tuhnt",
+      "senses": [
+        {
+          "translations": [
+            "مهم"
+          ],
+          "definition_en": "having great significance, value, or consequence",
+          "examples": [
+            {
+              "en": "It's important to drink enough water every day.",
+              "fa": "نوشیدن آب کافی هر روز مهم است."
+            },
+            {
+              "en": "This is the most important decision of my life.",
+              "fa": "این مهم‌ترین تصمیم زندگی من است."
+            }
+          ],
+          "synonyms": [
+            "significant",
+            "crucial",
+            "essential"
+          ],
+          "antonyms": [
+            "unimportant",
+            "trivial",
+            "insignificant"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "importance",
+      "pos": "noun",
+      "translation": "اهمیت"
+    },
+    {
+      "word": "importantly",
+      "pos": "adverb",
+      "translation": "از همه مهم‌تر"
+    }
+  ],
+  "notes": "Commonly used in the pattern \"it is important (for someone) to do something\"."
+}

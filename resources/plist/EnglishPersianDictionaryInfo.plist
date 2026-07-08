@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+		Identifiers. If you fork this project to publish your own build,
+		change CFBundleIdentifier and DCSDictionaryGUID to values unique to
+		your fork so your build never collides with the upstream one in
+		~/Library/Dictionaries.
+	-->
+	<key>CFBundleIdentifier</key>
+	<string>org.opendictionaries.english-persian</string>
+
+	<key>CFBundleDisplayName</key>
+	<string>English-Persian</string>
+
+	<key>CFBundleName</key>
+	<string>English-Persian</string>
+
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+
+	<!-- Shown at the bottom of every entry and in the dictionary picker. -->
+	<key>DCSDictionaryCopyright</key>
+	<string>Copyright (c) 2026 English-Persian Dictionary Contributors. MIT License.</string>
+
+	<!-- Must match the id="front_back_matter" entry produced by scripts/build.py. -->
+	<key>DCSDictionaryFrontMatterReferenceID</key>
+	<string>front_back_matter</string>
+
+	<!-- Random, fixed UUID identifying this dictionary bundle to macOS. -->
+	<key>DCSDictionaryGUID</key>
+	<string>33AE0229-1220-4668-8BBC-C219CDF279B7</string>
+
+	<!-- Two-letter codes: source language English, translation language Persian. -->
+	<key>DCSDictionaryIndexingLanguages</key>
+	<array>
+		<string>en</string>
+	</array>
+</dict>
+</plist>

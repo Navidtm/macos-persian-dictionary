@@ -1,0 +1,298 @@
+/*
+ * EnglishPersianDictionary.css
+ *
+ * Styling for the English -> Persian Dictionary.app plugin.
+ * Dictionary.app renders entries in a WebKit view, so standard CSS applies,
+ * but keep selectors simple: Dictionary Services supports a practical
+ * subset of CSS, not every modern feature.
+ *
+ * Every class name here is produced by scripts/lib/xml_render.py -- the two
+ * files are meant to be read and edited side by side.
+ */
+
+/* ---------------------------------------------------------------------- */
+/* Base / typography                                                      */
+/* ---------------------------------------------------------------------- */
+
+.entry {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1d1d1f;
+}
+
+/* Persian text always gets its own font stack and right-to-left flow,
+   wherever it appears in the entry. */
+[xml\:lang="fa"] {
+  font-family: "Vazirmatn", "IRANSansX", "Geeza Pro", "Noto Naskh Arabic", Tahoma, sans-serif;
+  line-height: 1.9;
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+[xml\:lang="en"] {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Headword                                                               */
+/* ---------------------------------------------------------------------- */
+
+.head-block {
+  margin-bottom: 6px;
+}
+
+.headword {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #000;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Part of speech + pronunciation                                         */
+/* ---------------------------------------------------------------------- */
+
+.pos-block {
+  margin: 14px 0;
+}
+
+.pos-line {
+  margin-bottom: 4px;
+}
+
+.pos-label {
+  font-style: italic;
+  font-weight: 600;
+  color: #6e6e73;
+  font-size: 13px;
+  text-transform: lowercase;
+  margin-right: 8px;
+}
+
+.pronunciation {
+  font-size: 13px;
+  color: #86868b;
+}
+
+.pronunciation .ipa {
+  font-family: "Charis SIL", "Doulos SIL", Georgia, serif;
+  margin-right: 6px;
+}
+
+.pronunciation .pron-guide {
+  font-style: italic;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Senses                                                                  */
+/* ---------------------------------------------------------------------- */
+
+.senses {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sense {
+  position: relative;
+  margin: 10px 0;
+  padding-left: 22px;
+}
+
+.sense-number {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0066cc;
+  min-width: 18px;
+}
+
+.translations {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0a4d8c;
+  margin-bottom: 3px;
+}
+
+.definition-en {
+  color: #3a3a3c;
+  margin-bottom: 4px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Examples                                                                */
+/* ---------------------------------------------------------------------- */
+
+.examples {
+  margin: 6px 0 6px 0;
+  padding-left: 12px;
+  border-left: 3px solid #d2d2d7;
+}
+
+.example {
+  margin: 6px 0;
+}
+
+.example-en {
+  color: #1d1d1f;
+  font-style: italic;
+}
+
+.example-fa {
+  color: #48484a;
+  margin-top: 2px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Synonyms / Antonyms                                                    */
+/* ---------------------------------------------------------------------- */
+
+.synonyms,
+.antonyms {
+  font-size: 13px;
+  margin-top: 4px;
+  color: #48484a;
+}
+
+.synonyms .label,
+.antonyms .label,
+.related-words .label,
+.idioms .label {
+  font-weight: 600;
+  color: #6e6e73;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Section headers (Related Words / Idioms / Usage Note)                  */
+/* ---------------------------------------------------------------------- */
+
+.section-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #86868b;
+  margin: 16px 0 6px 0;
+  padding-top: 10px;
+  border-top: 1px solid #e5e5ea;
+}
+
+.related-words,
+.idioms,
+.notes {
+  margin-top: 4px;
+}
+
+.related-list,
+.idiom-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.related-item {
+  margin: 4px 0;
+}
+
+.related-word {
+  font-weight: 600;
+}
+
+.related-pos {
+  color: #86868b;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.related-translation {
+  color: #0a4d8c;
+  margin-left: 6px;
+}
+
+.idiom-item {
+  margin: 10px 0;
+}
+
+.idiom-phrase {
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.idiom-translation {
+  color: #0a4d8c;
+  margin-top: 2px;
+}
+
+.notes-text {
+  color: #3a3a3c;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Front / back matter (About page)                                       */
+/* ---------------------------------------------------------------------- */
+
+.front-matter h1 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.front-matter h2 {
+  font-size: 15px;
+  color: #6e6e73;
+  margin-top: 18px;
+}
+
+.front-matter p,
+.front-matter li {
+  font-size: 14px;
+  color: #3a3a3c;
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Dark mode (macOS Dark Mode renders Dictionary.app content in WebKit's   */
+/* dark color scheme where supported).                                    */
+/* ---------------------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+  .entry {
+    color: #f2f2f7;
+  }
+
+  .headword {
+    color: #ffffff;
+  }
+
+  .pos-label,
+  .pronunciation,
+  .related-pos {
+    color: #98989d;
+  }
+
+  .definition-en,
+  .example-fa,
+  .notes-text {
+    color: #d1d1d6;
+  }
+
+  .translations,
+  .related-translation,
+  .idiom-translation {
+    color: #6ab0f3;
+  }
+
+  .examples {
+    border-left-color: #3a3a3c;
+  }
+
+  .section-title {
+    border-top-color: #3a3a3c;
+    color: #98989d;
+  }
+}

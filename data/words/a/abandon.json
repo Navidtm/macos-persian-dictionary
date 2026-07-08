@@ -1,0 +1,86 @@
+{
+  "word": "abandon",
+  "level": "B2",
+  "parts_of_speech": [
+    {
+      "type": "verb",
+      "ipa": "/əˈbæn.dən/",
+      "pronunciation_guide": "uh-BAN-dun",
+      "senses": [
+        {
+          "translations": [
+            "ترک کردن",
+            "رها کردن"
+          ],
+          "definition_en": "to leave a person, place, or thing, usually permanently, and without intending to return",
+          "examples": [
+            {
+              "en": "The sailors were forced to abandon the sinking ship.",
+              "fa": "ملوانان مجبور شدند کشتی در حال غرق‌شدن را ترک کنند."
+            },
+            {
+              "en": "He would never abandon a friend in need.",
+              "fa": "او هرگز دوستی را در زمان نیاز رها نمی‌کرد."
+            }
+          ],
+          "synonyms": [
+            "desert",
+            "forsake",
+            "leave",
+            "give up on"
+          ],
+          "antonyms": [
+            "keep",
+            "retain",
+            "stay with"
+          ]
+        },
+        {
+          "translations": [
+            "دست کشیدن از",
+            "رها کردن (طرح یا کار)"
+          ],
+          "definition_en": "to stop doing an activity or pursuing a plan before it is finished",
+          "examples": [
+            {
+              "en": "They abandoned the project due to a lack of funding.",
+              "fa": "آن‌ها به دلیل کمبود بودجه، پروژه را رها کردند."
+            }
+          ],
+          "synonyms": [
+            "give up",
+            "discontinue",
+            "drop",
+            "scrap"
+          ],
+          "antonyms": [
+            "continue",
+            "pursue",
+            "maintain"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "abandonment",
+      "pos": "noun",
+      "translation": "ترک، رهاسازی"
+    },
+    {
+      "word": "abandoned",
+      "pos": "adjective",
+      "translation": "رهاشده، متروک"
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "abandon ship",
+      "translation": "ترک کشتی؛ (مجازی) کنار کشیدن از موقعیتی دشوار",
+      "example_en": "When the company started losing money, several executives decided to abandon ship.",
+      "example_fa": "وقتی شرکت شروع به ضرر دادن کرد، چند مدیر تصمیم گرفتند از آن کناره‌گیری کنند."
+    }
+  ],
+  "notes": "\"Abandon\" usually implies leaving someone or something in a way that suggests neglect of duty or responsibility, which makes it stronger and more negative than the neutral verb \"leave\"."
+}

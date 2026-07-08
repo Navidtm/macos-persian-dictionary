@@ -1,0 +1,63 @@
+{
+  "word": "language",
+  "level": "A1",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈlæŋ.ɡwɪdʒ/",
+      "pronunciation_guide": "LANG-gwij",
+      "senses": [
+        {
+          "translations": [
+            "زبان"
+          ],
+          "definition_en": "a system of communication used by the people of a country or community, consisting of words and grammar",
+          "examples": [
+            {
+              "en": "Persian is the official language of Iran.",
+              "fa": "زبان فارسی، زبان رسمی ایران است."
+            }
+          ],
+          "synonyms": [
+            "tongue",
+            "speech"
+          ]
+        },
+        {
+          "translations": [
+            "زبان",
+            "بیان"
+          ],
+          "definition_en": "the particular style or type of words used by a person or group",
+          "examples": [
+            {
+              "en": "The report was written in very technical language.",
+              "fa": "این گزارش با زبانی بسیار فنی نوشته شده بود."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "linguistic",
+      "pos": "adjective",
+      "translation": "زبان‌شناختی"
+    },
+    {
+      "word": "bilingual",
+      "pos": "adjective",
+      "translation": "دوزبانه"
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "speak the same language",
+      "translation": "هم‌زبان بودن؛ تفاهم داشتن",
+      "example_en": "After years of working together, the two teams finally speak the same language.",
+      "example_fa": "بعد از سال‌ها همکاری، این دو تیم بالاخره هم‌زبان شده‌اند."
+    }
+  ],
+  "notes": "—"
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/OWNER/english-persian-dictionary/data/schema/word.schema.json",
+  "title": "Dictionary Word Entry",
+  "description": "Schema for a single English -> Persian dictionary entry. One word = one JSON file. This schema is the contract that scripts/build.py relies on, and the contract contributors write against.",
+  "type": "object",
+  "required": ["word", "parts_of_speech"],
+  "additionalProperties": false,
+  "properties": {
+    "word": {
+      "type": "string",
+      "description": "The English headword, lower-case, exactly as it should appear as the dictionary entry title (e.g. 'abandon')."
+    },
+    "level": {
+      "type": "string",
+      "description": "Optional CEFR level (A1-C2), useful for learners and for future filtering/sorting features.",
+      "enum": ["A1", "A2", "B1", "B2", "C1", "C2"]
+    },
+    "inflections": {
+      "type": "array",
+      "description": "Optional alternate word forms (plurals, tenses, comparatives) that should also point to this entry in the Dictionary.app index.",
+      "items": { "type": "string" }
+    },
+    "parts_of_speech": {
+      "type": "array",
+      "description": "One block per grammatical category the word can belong to (a word may be both a noun and a verb, etc.).",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["type", "senses"],
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Part of speech label as it should be displayed, e.g. 'noun', 'verb', 'adjective', 'adverb'."
+          },
+          "ipa": {
+            "type": "string",
+            "description": "IPA pronunciation, including slashes, e.g. '/əˈbæn.dən/'."
+          },
+          "pronunciation_guide": {
+            "type": "string",
+            "description": "Simple, non-technical respelling to help beginners, e.g. 'uh-BAN-dun'."
+          },
+          "senses": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["translations", "definition_en"],
+              "additionalProperties": false,
+              "properties": {
+                "translations": {
+                  "type": "array",
+                  "description": "One or more Persian translations/equivalents for this sense, ordered by how common they are.",
+                  "minItems": 1,
+                  "items": { "type": "string" }
+                },
+                "definition_en": {
+                  "type": "string",
+                  "description": "A concise English definition of this specific sense."
+                },
+                "examples": {
+                  "type": "array",
+                  "description": "Example sentences illustrating this sense, each with an English sentence and its Persian translation.",
+                  "items": {
+                    "type": "object",
+                    "required": ["en", "fa"],
+                    "additionalProperties": false,
+                    "properties": {
+                      "en": { "type": "string" },
+                      "fa": { "type": "string" }
+                    }
+                  }
+                },
+                "synonyms": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "antonyms": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "related_words": {
+      "type": "array",
+      "description": "Derived or closely related words, shown in a 'Related Words' section.",
+      "items": {
+        "type": "object",
+        "required": ["word", "translation"],
+        "additionalProperties": false,
+        "properties": {
+          "word": { "type": "string" },
+          "pos": { "type": "string", "description": "Optional part-of-speech label shown next to the related word, e.g. 'noun'." },
+          "translation": { "type": "string" }
+        }
+      }
+    },
+    "idioms": {
+      "type": "array",
+      "description": "Common expressions or idioms containing the headword.",
+      "items": {
+        "type": "object",
+        "required": ["phrase", "translation"],
+        "additionalProperties": false,
+        "properties": {
+          "phrase": { "type": "string" },
+          "translation": { "type": "string" },
+          "example_en": { "type": "string" },
+          "example_fa": { "type": "string" }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Free-form usage notes: grammar patterns, common confusions, register, etc."
+    }
+  }
+}

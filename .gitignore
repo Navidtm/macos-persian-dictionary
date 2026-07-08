@@ -1,0 +1,22 @@
+# Generated build artifacts (regenerate with `make build` / `make package`)
+/build/
+/objects/
+/release/
+
+# Local checkout of the Dictionary Development Kit (a build-time-only
+# dependency -- see README.md "For Contributors / Developers"). Never
+# committed: everyone clones their own copy.
+/kit/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp

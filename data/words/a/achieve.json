@@ -1,0 +1,54 @@
+{
+  "word": "achieve",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "verb",
+      "ipa": "/əˈtʃiːv/",
+      "pronunciation_guide": "uh-CHEEV",
+      "senses": [
+        {
+          "translations": [
+            "به دست آوردن",
+            "موفق شدن به",
+            "رسیدن به (هدف)"
+          ],
+          "definition_en": "to successfully complete something or reach a desired result, usually through effort",
+          "examples": [
+            {
+              "en": "Hard work helped him achieve his goals.",
+              "fa": "کار سخت به او کمک کرد تا به اهدافش برسد."
+            },
+            {
+              "en": "The team achieved better results than expected.",
+              "fa": "تیم نتایج بهتری از حد انتظار به دست آورد."
+            }
+          ],
+          "synonyms": [
+            "accomplish",
+            "attain",
+            "reach",
+            "fulfill"
+          ],
+          "antonyms": [
+            "fail",
+            "lose"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "achievement",
+      "pos": "noun",
+      "translation": "دستاورد، موفقیت"
+    },
+    {
+      "word": "achiever",
+      "pos": "noun",
+      "translation": "فرد موفق"
+    }
+  ],
+  "notes": "\"Achieve\" almost always takes an object that refers to a goal, result, or standard (achieve success, achieve a goal). It is not normally used with simple physical objects (avoid \"achieve a car\")."
+}

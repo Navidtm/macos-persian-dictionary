@@ -1,0 +1,54 @@
+{
+  "word": "happiness",
+  "level": "A2",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈhæp.i.nəs/",
+      "pronunciation_guide": "HAP-ee-nuhs",
+      "senses": [
+        {
+          "translations": [
+            "خوشبختی",
+            "شادی",
+            "خوشحالی"
+          ],
+          "definition_en": "the state of feeling pleasure, contentment, or joy",
+          "examples": [
+            {
+              "en": "True happiness often comes from simple things in life.",
+              "fa": "خوشبختی واقعی اغلب از چیزهای ساده زندگی می‌آید."
+            },
+            {
+              "en": "Money alone cannot buy happiness.",
+              "fa": "پول به‌تنهایی نمی‌تواند خوشبختی بخرد."
+            }
+          ],
+          "synonyms": [
+            "joy",
+            "contentment",
+            "delight"
+          ],
+          "antonyms": [
+            "sadness",
+            "sorrow",
+            "misery"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "happy",
+      "pos": "adjective",
+      "translation": "خوشحال، شاد"
+    },
+    {
+      "word": "unhappiness",
+      "pos": "noun",
+      "translation": "ناراحتی، بدبختی"
+    }
+  ],
+  "notes": "Uncountable noun; there is no plural form \"happinesses\"."
+}

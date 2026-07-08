@@ -1,0 +1,57 @@
+{
+  "word": "communicate",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "verb",
+      "ipa": "/kəˈmjuː.nɪ.keɪt/",
+      "pronunciation_guide": "kuh-MYOO-nih-kayt",
+      "senses": [
+        {
+          "translations": [
+            "ارتباط برقرار کردن",
+            "مبادله کردن (اطلاعات)"
+          ],
+          "definition_en": "to share or exchange information, news, or ideas with someone",
+          "examples": [
+            {
+              "en": "Good managers communicate clearly with their teams.",
+              "fa": "مدیران خوب به‌روشنی با تیم‌های خود ارتباط برقرار می‌کنند."
+            }
+          ],
+          "synonyms": [
+            "convey",
+            "express",
+            "transmit"
+          ]
+        },
+        {
+          "translations": [
+            "صمیمانه صحبت کردن",
+            "تفاهم داشتن"
+          ],
+          "definition_en": "to have a relationship in which people express their feelings and ideas openly",
+          "examples": [
+            {
+              "en": "After the argument, they finally started communicating again.",
+              "fa": "بعد از دعوا، بالاخره دوباره شروع به صحبت با یکدیگر کردند."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "communication",
+      "pos": "noun",
+      "translation": "ارتباط"
+    },
+    {
+      "word": "communicative",
+      "pos": "adjective",
+      "translation": "اجتماعی، اهل گفتگو"
+    }
+  ],
+  "notes": "Often used with \"with\": \"communicate with someone\"."
+}

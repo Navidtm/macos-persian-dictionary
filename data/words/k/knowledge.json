@@ -1,0 +1,56 @@
+{
+  "word": "knowledge",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "noun",
+      "ipa": "/ˈnɒl.ɪdʒ/",
+      "pronunciation_guide": "NAH-lij",
+      "senses": [
+        {
+          "translations": [
+            "دانش",
+            "آگاهی",
+            "معرفت"
+          ],
+          "definition_en": "facts, information, and skills acquired through experience or education",
+          "examples": [
+            {
+              "en": "She has extensive knowledge of ancient history.",
+              "fa": "او دانش گسترده‌ای درباره تاریخ باستان دارد."
+            }
+          ],
+          "synonyms": [
+            "understanding",
+            "awareness",
+            "expertise"
+          ],
+          "antonyms": [
+            "ignorance"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "know",
+      "pos": "verb",
+      "translation": "دانستن"
+    },
+    {
+      "word": "knowledgeable",
+      "pos": "adjective",
+      "translation": "آگاه، مطلع"
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "to the best of my knowledge",
+      "translation": "تا آنجا که من می‌دانم",
+      "example_en": "To the best of my knowledge, the meeting hasn't been rescheduled.",
+      "example_fa": "تا آنجا که من می‌دانم، جلسه به تعویق نیفتاده است."
+    }
+  ],
+  "notes": "Uncountable in almost all uses; avoid the plural form \"knowledges\"."
+}

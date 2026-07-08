@@ -1,0 +1,62 @@
+{
+  "word": "generous",
+  "level": "B1",
+  "parts_of_speech": [
+    {
+      "type": "adjective",
+      "ipa": "/ˈdʒen.ər.əs/",
+      "pronunciation_guide": "JEN-uh-ruhs",
+      "senses": [
+        {
+          "translations": [
+            "سخاوتمند",
+            "بخشنده",
+            "دست‌ودل‌باز"
+          ],
+          "definition_en": "willing to give more of something, such as money, time, or help, than is strictly necessary or expected",
+          "examples": [
+            {
+              "en": "He is always generous with his time when friends need help.",
+              "fa": "او همیشه در کمک به دوستانش سخاوتمندانه وقت می‌گذارد."
+            }
+          ],
+          "synonyms": [
+            "charitable",
+            "giving",
+            "unselfish"
+          ],
+          "antonyms": [
+            "stingy",
+            "mean",
+            "selfish"
+          ]
+        },
+        {
+          "translations": [
+            "زیاد",
+            "فراوان"
+          ],
+          "definition_en": "larger in amount than is usual or necessary",
+          "examples": [
+            {
+              "en": "The restaurant serves generous portions of food.",
+              "fa": "این رستوران غذا را با سهم‌های زیادی سرو می‌کند."
+            }
+          ],
+          "synonyms": [
+            "ample",
+            "abundant"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_words": [
+    {
+      "word": "generosity",
+      "pos": "noun",
+      "translation": "سخاوت، بخشندگی"
+    }
+  ],
+  "notes": "Followed by \"with\" for what is given (\"generous with money/time\") or \"to/toward\" for the receiver (\"generous to strangers\")."
+}
