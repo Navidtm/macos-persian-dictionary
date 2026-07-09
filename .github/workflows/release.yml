@@ -42,7 +42,15 @@ jobs:
           chmod +x kit/bin/*.sh kit/bin/*.pl 2>/dev/null || true
 
       - name: Derive version from tag
-        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+        id: version
+        run: |
+          # GITHUB_REF_NAME is the tag itself (e.g. "v0.1.0"), auto-exported
+          # by the runner -- no need to derive it from github.ref_name by
+          # hand. Strip the leading "v" with bash's anchored prefix-removal
+          # operator (safer than a global string replace, which could
+          # mangle a "v" appearing anywhere else in the tag).
+          version="${GITHUB_REF_NAME#v}"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
 
       - name: Validate data
         run: python3 scripts/validate.py
@@ -51,11 +59,11 @@ jobs:
         run: python3 -m unittest discover -s tests -v
 
       - name: Build release package
-        run: make release VERSION="$VERSION" DDK_ROOT="$(pwd)/kit"
+        run: make release VERSION="${{ steps.version.outputs.version }}" DDK_ROOT="$(pwd)/kit"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: English-Persian Dictionary v${{ env.VERSION }}
-          files: release/EnglishPersianDictionary-v${{ env.VERSION }}.zip
+          name: English-Persian Dictionary v${{ steps.version.outputs.version }}
+          files: release/EnglishPersianDictionary-v${{ steps.version.outputs.version }}.zip
           generate_release_notes: true
